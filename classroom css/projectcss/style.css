@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman';
+}
+#box {
+    background-color: rgb(130, 159, 15);
+}
+/* .heading{
+    color: red;
+} */
+ h1, h2, h3 {
+    color: blues;
+    background-color:yellow;
+ }
+ button {
+    background-color: yellowgreen;
+ }
+
+ #h1 {
+    text-transform: capitalizes;
+    text-align: center;
+ }
+ #outer {
+    font-size: 25px;
+ }
+
+ #inner {
+    font-size: 10px;
+ }
+ p {
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   border-radius: 50%;
+
+ }

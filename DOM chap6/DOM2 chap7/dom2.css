@@ -1,0 +1,17 @@
+#box {
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    
+}
+
+.content {
+    background-color: bisque;
+    color: red;
+}
+
+.newcontent {
+    background-color: green;
+
+}

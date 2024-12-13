@@ -1,0 +1,38 @@
+.background-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 15s infinite; /* Background will change every 5 seconds */
+}
+h3 {
+    animation: infinite;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Define keyframes for background image changes */
+@keyframes changeBackground {
+    0% {
+        background-image: url('bird.jpg');
+    }
+    33% {
+        background-image: url('download.png');
+    }
+    66% {
+        background-image: url('nature.jpg.jpg');
+    }
+    100% {
+        background-image: url('bird.jpg'); /* Loop back to the first image */
+    }
+}

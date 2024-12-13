@@ -1,0 +1,66 @@
+ul {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+li {
+    /* list-style-type: none; */
+    display: inline;
+}
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    background-image: url("nature.jpg.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background-image: url("bird.jpg") ;
+    background-size: cover;
+  
+}
+ @media (max-width:300px) {
+    ul {
+        background-color: green;
+    }
+}
+ @media (min-width:300px) and (max-width:400px) {
+    ul {
+        background-color: pink;
+    }
+ }
+
+ @media (min-width:400px) and (max-width:600px) {
+    ul {
+        background-color: red;
+    }
+ }
+
+ @media (min-width:600px) {
+    ul {
+        background-color: blue;
+    }
+}
+
+
+
+
+/* div {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around
+
+} */
+

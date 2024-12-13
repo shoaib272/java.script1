@@ -1,0 +1,43 @@
+h1 {
+    color: green;
+}
+h2 {
+    color: blue;
+}
+p {
+    color: red;
+}
+button {
+    color: brown;
+    background-color: aquamarine;
+}
+body {
+    background-color: #a3b18a;
+}
+/* * {
+    color: blue;
+} */
+
+#my {
+    color: aqua;
+}
+h3{
+    text-align: center;
+    color: palevioletred;
+    text-decoration: red dotted underline;
+    font-weight: 900;
+ }
+ p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+ p1 {
+    font-size: 32px;
+ }
+ p2 {
+    font-size: 20px;
+ }
+ p3 {
+    font-size: 12px;
+ }

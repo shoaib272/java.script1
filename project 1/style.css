@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+                /* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    background-size: cover;
+    width: 33%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.nav-list li {
+    padding: 16px 30px;
+    list-style: none;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.rightnav {
+    text-align: right;
+    width: 40%;
+    padding: 0 20px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('thumb-350-1173566.webp');
+    background-size: cover;
+}
+
+.box-main {
+    height: 80%;
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstsection {
+    height: 100vh;
+
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf {
+width: 40%;
+height: 35%;
+}
+
+.secondhalf img {
+    height: 100%;
+    width: 70%;
+    border: 2px solid white;
+    display: block;
+    border-radius: 250px;
+    margin: auto;
+}
+.text-big {
+    font-size: 30px;
+}
+.text-small {
+    font-size: 14px;
+}
+
+.btn {
+   padding: 8px 18px;
+   margin: 10px 3px;
+   border: 2px solid white;
+   border-radius: 7px;
+   font-size: 14px;
+   cursor: pointer;
+   color: whitesmoke;
+   background: none;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.secleft {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 65px;
+}
+
+.sectionsubtag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+

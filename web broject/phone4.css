@@ -1,0 +1,123 @@
+.container1 {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ /* main manue */
+ .main-menu {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+  /* <!-- for contact --> */
+
+  .text-container  {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+     /* about company */
+
+.About-company {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+        
+}   
+
+
+                     /* after about company */
+.serv{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}       
+
+
+         /* SERVICES */
+
+.services {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+.classes {
+    margin: 0px;
+}
+
+      /* information */
+
+
+      .para1 {
+        max-width: 1170px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    
+    .para {
+        max-width: 1170px;
+        margin-right: auto;
+        margin-left: auto;  
+    }   
+    
+           /* our team */
+    .team-head {
+        max-width: 1170px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+      
+       /* .calculation */
+    
+    .calcula {
+        max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+    }
+    
+    
+    
+    /* .Free-Consultation */
+    
+    .free-cons {
+      
+        max-width: 1170px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    
+    
+             /* partners */
+    .partners {
+        margin: 0%;
+    }          
+    .partner {
+        max-width: 1170px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+
+
+    /* secon-lastbottom */
+
+
+.second-last {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+
+/* bootoom_footer */
+
+.bottom-footer {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;  
+}

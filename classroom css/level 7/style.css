@@ -1,0 +1,48 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    position: fixed;
+    left: 150px;
+    top: 150px;
+    animation: coloranimate 5s 0s infinite alternate ;
+
+}
+
+@keyframes coloranimate {
+    /* from  */
+    0%
+          { left: 0px;
+            background-color: aqua;
+    }
+    50%   {
+            background-color: purple;
+            background-image: url("bird.jpg");
+            background-size:cover ;
+    }  
+    /* to   */
+    100%
+          { left: 800px;
+            background-color: brown;
+    }
+}
+
+/* div:hover {
+    background-color: yellow;
+    color: white;
+    font-size: 30px;
+    transform: scalex(2);
+    transform: rotate(2);
+    transform: translate(100px,50px);
+    transform: skew(45deg);
+
+} */
+
+/* div:active {
+    background-color: browns;
+} */

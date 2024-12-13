@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slick Slider in Vanilla JS</title>
+  
+  <!-- Slick Slider CSS -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+  />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slider {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    .slider div {
+      background: #3498db;
+      color: white;
+      text-align: center;
+      padding: 80px 0;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Slider container -->
+  <div class="slider">
+    <div></div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <!-- Slick Slider JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        dots: true,        // Show dots
+        infinite: true,    // Infinite loop
+        speed: 500,        // Transition speed
+        slidesToShow: 1,   // Show 1 slide at a time
+        slidesToScroll: 1  // Scroll 1 slide at a time
+      });
+    });
+  </script>
+
+</body>
+</html>

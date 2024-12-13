@@ -1,0 +1,398 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.first-nav {
+    padding-top: 25px;
+    padding-bottom: 32px;
+    height: 100%;
+    width: 100%;
+}
+#add1 {
+    margin-right: 20px;
+    padding: 0 5px 0 5px;
+}
+#add2 {
+    margin-right: 20px;
+    padding: 0 20px 0 10px;
+}
+.nav-logo {
+    margin-bottom: 5px;
+}
+
+
+ /* main manue */
+.fa-bars {
+    display: block;
+    display: flex;
+
+}
+
+.icon {
+    display: flex;
+    height: 62px;
+    width: 5vw;
+    float: right;
+    margin-left: auto;
+}
+
+.icon2 {
+    height: 62px;
+    width: 60px;
+   
+}
+
+.icon3 {
+    height: 62px;
+    width: 60px;
+}
+
+
+
+.main-manue1 {
+    display: none;
+    height: 100%;
+    width: 100%;
+
+}
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    height:63px;
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 63px;
+    width: 100%;
+
+}
+
+     /* <!-- for contact --> */
+
+
+
+.image-text {
+    height: 600px;
+}
+.text-container  {
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+           /* features */ 
+
+.p111 {
+    font-size: 15px;
+}
+
+
+          /* about company */
+
+.About-company {
+    height: 412px;
+    margin-bottom:80px;
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}           
+.first-half {
+    display: none;
+    
+}
+.second-half {
+    width: 100%;
+}
+
+
+                     /* after about company */
+.serv{
+    margin-bottom: 80px;
+    max-width: 720px;
+    min-width: 690px;
+    height: 386px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}       
+.com2 {
+    font-size: 38px;
+}              
+
+         /* SERVICES */
+
+.services {
+    margin-bottom: 80px;
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.max-width {
+    flex: 0 0 50%;
+    max-width: 50%;
+    border: 1px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.classes {
+    height: 100%;
+}
+
+.mail {
+    padding-top: 30px;
+}
+
+.text-pro {
+    padding: 10px 5px 10px 30px;
+}
+
+      /* information */
+
+      .information {
+        margin-bottom: 80px;
+      }    
+      .para1 {
+        max-width: 720px;
+        min-width: 690px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+.para {
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}    
+
+
+            /* our-team */
+
+.our-team {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 80px;
+    /* max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.team-head {
+
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pro-picture  {
+    flex-wrap: 0 0 50%;
+    max-width: 50%;
+}
+.boxes {
+    width: 100%;
+}
+
+.team-pic {
+    height: 100%;
+    width: 100%;
+}
+
+.hover-icon {
+    height: 77%;
+    width: 91%;
+}
+
+/* calculation */
+
+.calculation {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  
+}
+
+.calc {
+    height: 100%;
+    width: 100%;
+   text-align: center;
+}
+
+.numb {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.calcula {
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* .Free-Consultation */
+.Free-Consultation {
+    margin-bottom: 80px;
+    height: 100%;
+    width: 100%;
+}
+.free-cons {
+  
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.plachold {
+    padding: 40px 20px;
+    border: none;
+    height: auto;
+    width: 100%;
+}
+.pic-con {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photo {
+    height: 250px;
+    background: url(consult.avif);
+    background-size: cover;
+     width: 100%;
+}
+
+         /* partners */
+.partners {
+    margin: 0%;
+}          
+.partner {
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* secon-lastbottom */
+
+.second-top {
+ height: 100%;
+ width: 100%;
+}
+.second-last {
+    /* max-height: fit-content; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 720px;
+    min-width: 690px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.second-item {
+    
+    max-height: fit-content;
+    height: 100%;
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    /* max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+
+.second-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.second-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.second-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.second-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/* bootoom_footer */
+
+.bottom-footer {
+    max-width: 720px;
+    min-width: 690px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aline {
+    margin-left: 20px;
+}
+
+.bottom-footer3 {
+    width: 100%;
+    padding-left: 15px;
+}
+
+
